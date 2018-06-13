@@ -1,0 +1,32 @@
+@import '~antd/lib/style/themes/default.less';
+
+.header{
+    background: #fff;
+    color:  @primary-color;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 15px;
+    border-bottom: 1px solid @border-color-base;
+    .extendBtn{
+        width: 56px;
+        height:56px;
+        line-height:56px;
+        margin-left: -15px;
+        text-align:center;
+        cursor: pointer;
+        &:hover{
+            background: @primary-2
+        }
+    }
+    .rightWarpper{
+        float: right;
+        height: 56px;
+        line-height: 56px;;
+        >ul{
+            line-height:56px;
+            height:56px;
+        }
+    }
+}
